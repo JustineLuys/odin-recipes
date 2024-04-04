@@ -1,7 +1,19 @@
+*
+{
+ margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+*,
+*::before,
+*::after
+{
+   box-sizing:border-box;
+}
 .title
 {
     border: 3px solid teal;
-    padding: 5px;
+    padding: 10px;
     margin: auto;
     width: 500px;
 }
@@ -11,36 +23,86 @@
     width: 500px;
     text-align: left;
 }
-.main
+div.main
 {
-    padding-left: 22px;
+    margin: 20px auto;
+    display: inline-block;
+    width: auto;
+    border: 2px dotted rebeccapurple;
 }
 body
 {
     text-align: center;
 }
 
+.list
+{
+    margin-top: 10px;
+    padding: 20px 40px 20px 40px;
+}
 ul 
 {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333333;
+    display: inline-flex;
 }
-  
-li {
-    float:left;
-}
-  
 li a {
     display: block;
     color: white;
     text-align: center;
     padding: 16px;
     text-decoration: none;
+    box-shadow: 2px 2px black;
+    margin: 10px;
+    background-color: #5843AC;
+    font-weight: bold;
+    height: 60px;
 }
-  
-li a:hover {
-    background-color: #111111;
+
+a:hover
+{
+    background-color: darkmagenta;
+}
+
+.container
+{
+    border: 1px solid black;
+    display: inline-block;
+    margin-top: 10px;
+    height: 500px;
+    background-color:beige;
+}
+
+.main
+{
+    padding: 10px;
+}
+ul img
+{
+    width: 100px;
+}
+ul li
+{
+    margin: 10px;
+    
+}
+ul.images
+{
+    margin-left: 10px;
+}
+.adobo
+{
+    margin-left: 8px;
+}
+.carbonara
+{
+    margin-left: 33px;
+}
+.spaghetti
+{
+    margin-left: 38px;
+}
+
+body
+{
+    background-color: antiquewhite;
 }
