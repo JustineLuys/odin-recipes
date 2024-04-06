@@ -1,19 +1,17 @@
 body
 {
+    margin: 0;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-body, .steps, body h3, .listingredients
-{
-    font-size: 18px;
 }
 .steps, body h3
 {
     text-align: left;
-
 }
-
+body, .steps, body h3, .listingredients
+{
+    font-size: 18px;
+}
 h3.ingredients
 {
     background-color: rgb(94, 123, 119 );
@@ -22,20 +20,109 @@ h3.ingredients
     margin-left: 550px;
     padding: 20px;
 }
+.ingredients
+{
+
+    margin-top: 100px;
+    display: inline-block;
+    margin-left: -160px;
+}
+div h3
+{
+    text-align: center;
+    margin-right: 520px;
+    font-size: 35px;
+}
 .listingredients
 {
-    margin: auto;
-    width: 532px;
-    text-align: left;
-    background-color: rgb(189, 249, 242);
+    border: 2px solid black;
+    margin: -20px auto auto -450px;
     padding-top: 10px;
     padding-bottom: 10px;
-    
+    display: inline-block;
+    box-shadow:5px 10px 18px gray;
 }
+
+.spaghetti li
+{
+    /* border: 2px solid rebeccapurple; */
+    text-align: left;
+    margin: 10px;
+    padding: 5px;
+    font-size: 19px;
+}
+
 .ingredients, h2
 {
     text-align: center;
     font-size: 25px;
+}
+  
+.other-recipes {
+    float:left;
+}
+  
+  
+
+.description
+{
+    position: relative;
+    overflow: auto;
+    
+}
+div img{
+    float: right;
+    margin-top: 100px;
+    padding-right: 80px;
+}
+.description p
+{
+    width: 500px;
+    text-align: justify;
+    /* border: 2px solid rebeccapurple; */
+    margin-left: 25em;
+}
+.description h1
+{
+    margin-top: 120px;
+    
+    padding-right: 500px;
+}
+
+div.nav
+{
+    float: top;
+    margin: 0;
+}
+.nav ul
+{
+    list-style-type: none;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 1px 1px #333333;
+    padding-left: 700px;
+    min-width: 500px;
+}
+
+.nav li
+{
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    
+}
+
+a{
+    text-decoration: none;
+}
+li a:hover
+{
+    background-color: rgb(187, 178, 178);
+}
+a:visited
+{
+    color:black;
 }
 ul.others
 {
@@ -49,20 +136,50 @@ ul.others
 .other-recipes {
     float:left;
 }
-  
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-}
-  
-li a:hover {
-    background-color: #111111;
+
+footer
+{
+    margin-bottom: 30px;
 }
 
-img{
-    width: 500px;
-    height: auto;
+.steps-container
+{
+    display: inline-block;
+    padding: 50px;
+}
+
+.steps li
+{
+    /* border: 2px solid black; */
+    margin: 10px;
+}
+
+
+
+ol
+{
+    border: 2px solid black;
+    display: inline-block;
+    list-style: none;
+    margin: auto 500px auto 300px;
+    box-shadow:5px 10px 18px gray;
+}
+
+.box b
+
+{
+    margin-left: 20px;
+    text-align: center;
+}
+
+.steps-container h3
+{
+    /* border: 2px solid black; */
+    display: inline-block;
+    margin-left: -60px;
+}
+
+ol li
+{
+    padding: 5px;
 }
